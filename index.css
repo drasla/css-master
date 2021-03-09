@@ -12,3 +12,13 @@
     background: peru;
     color: white;
 }
+
+.box:nth-child(2) {
+    background-color: #000000;
+    flex-shrink: 2;
+}
+
+.box:nth-child(3) {
+    background-color: peru;
+    flex-shrink: 3;
+}
