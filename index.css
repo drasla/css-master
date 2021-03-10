@@ -1,10 +1,31 @@
-.father {
+.grid {
     display: grid;
-    grid-template-columns: 20px 250px 300px;
-    grid-template-rows: 100px 150px 200px;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas:
+    "header header header header"
+    "content content content nav"
+    "content content content nav"
+    "footer footer footer footer";
     gap: 30px;
 }
 
-.child {
+.header {
+    background-color: #02a566;
+    grid-area: header;
+}
 
+.content {
+    background-color: #616465;
+    grid-area: content;
+}
+
+.nav {
+    background-color: thistle;
+    grid-area: nav;
+}
+
+.footer {
+    background-color: blueviolet;
+    grid-area: footer;
 }
