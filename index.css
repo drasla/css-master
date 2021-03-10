@@ -1,26 +1,10 @@
-.wrapper {
-    display: flex;
-    justify-content: space-around;
-    height: 100vh;
-    flex-wrap: wrap;
-    align-content: space-around;
+.father {
+    display: grid;
+    grid-template-columns: 20px 250px 300px;
+    grid-template-rows: 100px 150px 200px;
+    gap: 30px;
 }
 
-.box {
-    flex-basis: 300px;
-    height: 200px;
-    background: peru;
-    color: white;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.child {
 
-.box:nth-child(2) {
-    background-color: #000000;
-}
-
-.box:nth-child(3) {
-    background-color: peru;
 }
