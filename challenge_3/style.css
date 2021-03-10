@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    background-color: #dde2cb;
+    font-family: 'Roboto Slab', serif;
+
+    width: 100%;
+    height: 100vh;
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.red {
+    background-color: #f14111;
+}
+
+.fontBlack {
+    color: black;
+    font-size: 160px;
+    font-weight: bold;
+}
+
+.fontWhite {
+    color: #f0ddca;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.father {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 100px repeat(3, 200px) 100px;
+    gap: 10px;
+}
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-template-columns: repeat(9, auto);
+    grid-template-rows: auto;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.headerOne {
+    width: 25%;
+}
+
+.headerTwo {
+    width: 50%;
+}
+
+.headerThree {
+    width: 33%;
+}
+
+.innerOne {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    display: flex;
+    align-items: flex-end;
+
+    position: relative;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.innerTwo {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.innerThree {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+
+    position: relative;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.abBottom {
+    position: absolute;
+    top: 225px;
+}
+
+.abTop {
+    position: absolute;
+    top: -30px;
+}
