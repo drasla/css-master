@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.firstColor {
+    background-color: #c0bda7;
+}
+
+.secondColor {
+    background-color: #fe4814;
+}
+
+.thirdColor {
+    background-color: #857e96;
+}
+
+.fourthColor {
+    background-color: #d0ff71;
+}
+
+.fifthColor {
+    background-color: #993433;
+}
+
+.sixthColor {
+    background-color: #39aafa;
+}
+
+.seventhColor {
+    background-color: #40917b;
+}
+
+.eightThColor {
+    background-color: #e4c4e4;
+}
+
+.fontBold {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.firstImage {
+    background-image: url(http://www.ayearofconsciouspractice.com/texts/yelena-popova/1-cosima-von-bonin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.secondImage {
+    background-image: url(http://www.ayearofconsciouspractice.com/texts/test-image/1-fields.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.thirdImage {
+    background-image: url(http://www.ayearofconsciouspractice.com/texts/image-balamohan/balamohan-single-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fourThImage {
+    background-image: url(http://www.ayearofconsciouspractice.com/texts/fields/1.starlings-by-oronbb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.father {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 250px;
+}
+
+.childFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 30px;
+}
+
