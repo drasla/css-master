@@ -2,29 +2,22 @@
     display: grid;
     gap: 5px;
     height: 50vh;
-    grid-template-columns: repeat(4, minmax(100px, 1fr));
-    grid-template-rows: repeat(2, 100px);
-    grid-auto-flow: column;
-    grid-auto-columns: 100px;
+    grid-auto-rows: 100px;
+    margin-bottom: 30px;
 }
 
-.header {
-    background-color: #02a566;
-    align-self: end;
+.item:nth-child(odd) {
+    background-color: #9834db;
 }
 
-.content {
-    background-color: #616465;
+.item:nth-child(even) {
+    background-color: #3498db;
 }
 
-.nav {
-    background-color: thistle;
+.grid:first-child {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
-.footer {
-    background-color: blueviolet;
-}
-
-.item {
-    background-color: #fe85ae;
+.grid:last-child {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
