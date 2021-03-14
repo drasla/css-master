@@ -23,5 +23,6 @@
     "browsers": [
       "last 2 versions"
     ]
-  }
+  },
+  "type": "module"
 }
