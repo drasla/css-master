@@ -2,7 +2,7 @@
   "name": "css-master",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/nomadcoders/scss-masterclass",
+  "repository": "https://github.com/drasla/css-master",
   "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
   "license": "MIT",
   "dependencies": {
